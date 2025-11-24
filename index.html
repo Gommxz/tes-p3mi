@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Natal P3MI Maria Sunggal 2025</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{
+      background: linear-gradient(135deg, #8B0000, #2c0b0e);
+      color:#fff;
+      font-family:'Segoe UI',sans-serif;
+      min-height:100vh;
+    }
+    .header{
+      text-align:center;
+      padding:22px 15px;
+      background:#8B0000;
+      border-bottom:5px solid #FFD700;
+      position:fixed;
+      top:0; left:0; right:0;
+      z-index:10;
+      box-shadow:0 5px 20px rgba(0,0,0,0.8);
+    }
+    .header h1{
+      font-size:1.9em;
+      color:#FFD700;
+      text-shadow:0 0 15px #FFD700;
+    }
+    .header p{
+      font-size:1em;
+      color:#FFFACD;
+      margin-top:5px;
+    }
+
+    .tata-ibadah{
+      width:100%;
+      height:88vh;
+      border:none;
+      margin-top:80px;
+      background:white;
+    }
+
+    .section{
+      margin:20px 10px;
+      padding:20px;
+      background:rgba(0,0,0,0.5);
+      border-radius:20px;
+      text-align:center;
+      box-shadow:0 8px 25px rgba(0,0,0,0.7);
+    }
+    .section h2{
+      color:#FFD700;
+      font-size:1.7em;
+      margin-bottom:15px;
+      text-shadow:0 0 10px #FFB6C1;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+      gap:15px;
+    }
+    .gallery img{
+      width:100%;
+      border-radius:16px;
+      border:4px solid #FFD700;
+      box-shadow:0 8px 20px rgba(255,215,0,0.4);
+    }
+
+    .video-item{
+      position:relative;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 10px 30px rgba(255,215,0,0.4);
+    }
+    .video-item iframe{
+      width:100%;
+      height:62vh;
+      border:none;
+    }
+    .play-btn{
+      position:absolute;
+      top:50%; left:50%;
+      transform:translate(-50%,-50%);
+      font-size:6em;
+      color:#FFD700;
+      text-shadow:0 0 30px #8B0000;
+      pointer-events:none;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px 15px;
+      color:#ccc;
+      font-size:0.95em;
+      margin-top:30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>✨ NATAL P3MI MARIA SUNGGAL ✨</h1>
+    <p>“Terang di Tengah Dunia” – Yohanes 8:12</p>
+  </div>
+
+  <!-- TATA IBADAH -->
+  <iframe src="https://drive.google.com/file/d/1HdjLCG7Wae89B623KYddB3yYkrnrSyhA/preview"
+          class="tata-ibadah" allow="fullscreen"></iframe>
+
+  <!-- GALERI FOTO -->
+  <div class="section">
+    <h2>Galeri Foto Kami</h2>
+    <div class="gallery">
+      <img src="https://drive.google.com/uc?export=view&id=1FPHbSKdGNYFTXHilKyu-BQ_P4W-ZJF2G" loading="lazy">
+      <img src="https://drive.google.com/uc?export=view&id=1wl6aPSyUmu2Yhf4dM0IgODGdlMZ03L40" loading="lazy">
+    </div>
+  </div>
+
+  <!-- VIDEO -->
+  <div class="section">
+    <h2>Video Spesial Natal</h2>
+    <div class="video-item" onclick="this.querySelector('iframe').src += '&autoplay=1'; this.querySelector('.play-btn').style.display='none';">
+      <iframe src="https://drive.google.com/file/d/1yrAna-oTA-tNsfdd0FinihXzYFJi5DMz/preview" loading="lazy"></iframe>
+      <div class="play-btn">▶</div>
+    </div>
+  </div>
+
+  <footer>
+    Dibuat dengan ❤️ P3MI Maria Sunggal<br>
+    24-25 Desember 2025 • Medan
+  </footer>
+
+</body>
+</html>
